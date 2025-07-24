@@ -12,16 +12,12 @@ Libraries:
   
 ## 🔍 Pipeline Diagram
 - Raw Data
-     - ↓
 - ColumnTransformer
-   - Binary Encoding (Yes/No, Gender)
-   - OneHot Encoding (Contract, Payment Method, etc.)
-   - Standard Scaling (Tenure, Monthly Charges, etc.)
-     - ↓
+   - Binary Encoding 
+   - OneHot Encoding 
+   - Standard Scaling 
 - SMOTEENN (Balancing)
-     - ↓
 - Classifier (SVM / Logistic / KNN)
-     - ↓
 - Prediction
 
 
