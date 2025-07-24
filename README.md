@@ -24,6 +24,11 @@ Libraries:
      ↓
 - Prediction
 
+
+### Streamlit App Interface
+![Chart showing accuracy comparison](img1.png)
+![Chart showing accuracy comparison](img2.png)
+
 ## ⚙️ Data Preprocessing Pipeline
 A preprocessing pipeline was built using ColumnTransformer, including:
 
@@ -63,5 +68,5 @@ The SVM model showed the best overall performance with a good balance between pr
 ## 🚀 Deployment
 The project was deployed using Streamlit, allowing users to interact with the trained model through a simple web interface.
 
-![Chart showing accuracy comparison](img1.png)
+
 
